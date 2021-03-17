@@ -143,20 +143,15 @@ export default function App() {
        <Header/>
       </ScrollView>
       <View>
-      <Image
+       <Image
               style={{borderRadius: 100}}
-              source={require('https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')}
-            />
-            <Image
-              style={{borderRadius: 100}}
-              source={require('https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')}
-            /><Image
-            style={{borderRadius: 100}}
-            source={require('https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')}
-          />
+              source={require('./assets/shoes.jpg')}
+            /> 
+            
       </View>
     <View style={styles.container}>
-      <Text style={styles.text}> Flat list example </Text>
+      <Text style={styles.text}> Search for Product
+       </Text>
       <FlatList horizontal
         contentContainerStyle={{paddingBottom: 20}}
         data={data}
