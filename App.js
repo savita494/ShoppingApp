@@ -142,13 +142,7 @@ export default function App() {
          <ScrollView style={styless.container}>
        <Header/>
       </ScrollView>
-      <View>
-       <Image
-              style={{borderRadius: 100}}
-              source={require('./assets/shoes.jpg')}
-            /> 
-            
-      </View>
+      
     <View style={styles.container}>
       <Text style={styles.text}> Search for Product
        </Text>
@@ -175,6 +169,20 @@ export default function App() {
         )}
       />
     </View>
+    
+    <View>
+      
+       <Image
+              style={{height:'200px' ,width:'200px'}}
+              source={require('./assets/shoes.jpg')}
+            /> 
+            <Image
+              style={{height:'200px' ,width:'200px'}}
+              source={require('./assets/girlssandles.jpg')}
+            /> 
+            
+      </View>
+      
     </View>
   );
 }
